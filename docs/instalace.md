@@ -8,8 +8,8 @@ Projekt lze spustit dvěma způsoby: pomocí Dockeru (doporučeno) nebo lokáln�
 
 1. **Klonujte repozitář:**
 
-   ```bash
-   git clone https://github.com/tvminer/NewsVideoMiner.git (zatím nedostupné)
+   ```bash[
+   git clone https://github.com/tomyjany/BroadcastInsight.git
    cd NewsVideoMiner-docs
    ```
 
