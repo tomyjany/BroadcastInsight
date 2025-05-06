@@ -1,0 +1,9 @@
+services:
+  miner:
+    build: .
+    container_name: miner-service
+    ports:
+      - "8000:8000"
+      - "8051:8051"
+    volumes:
+      - .:/code:rw

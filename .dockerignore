@@ -1,0 +1,18 @@
+# .dockerignore
+.vscode
+.venv
+*/__pycache__
+.DS_Store
+*.pyc
+__pycache__
+.idea
+.pytest_cache
+.venvCV
+Annocr
+AnnotationTool
+visualizer
+LogoFinder/dataset
+LogoFinder/data
+LogoFinder/tools/dataset
+LogoFinder/tools/dataset_backup
+

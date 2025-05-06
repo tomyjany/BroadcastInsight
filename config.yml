@@ -1,0 +1,41 @@
+# API SETUP
+API_URL : "http://localhost:8000/api/v1/NewsVideoMiner/inference"
+
+# Tesseract  settings
+TESS_OEM : 0
+TESS_PSM : 3 
+#TESS_LANG : "ces"
+TESS_LANG : "ces"
+
+# EasyOCR settings
+EASY_GPU : False # True not tested
+EASY_LANG : "cs"
+EASY_RECOGNITION_MODEL: 'standard'
+EASY_DETECTION_MODEL: "craft"
+
+PADDLE_LANG : "cs"
+PADDLE_USE_GPU : False # True not tested
+
+
+#PySceneDetect settings
+PYSCENE_THRESHOLD : 27
+PYSCENE_MIN_SCENE_LEN : 15
+
+#FFPROBE
+#There are no settings for FFPROBE
+
+#Transnet
+
+TRANSNET_MODEL_DIR : "TransNetV2/inference/transnetv2-weights"
+TRANSNET_THRESHOLD : 0.5
+ 
+#Autoshot
+AUTOSHOT_THRESHOLD : 0.296
+AUTOSHOT_MODEL_PATH : "Autoshot/ckpt_0_200_0.pth"
+
+
+#People Detection
+YOLO_MODEL_PATH : "yolo/yolov5s.pt"
+
+# Database people path
+PEOPLE_DB_PATH : "PeopleFinder/People/database"
