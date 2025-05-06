@@ -32,8 +32,8 @@ Projekt lze spustit dvěma způsoby: pomocí Dockeru (doporučeno) nebo lokáln�
 2. **Klonujte repozitář:**
 
    ```bash
-   git clone https://github.com/tvminer/NewsVideoMiner.git
-   cd NewsVideoMiner
+   git clone https://github.com/tomyjany/BroadcastInsight.git
+   cd BroadcastInsight
    ```
 
 3. **Vytvořte a aktivujte virtuální prostředí:**
@@ -87,10 +87,3 @@ Více informací o konfiguraci najdete v sekci [⚙️ Konfigurace](konfigurace.
 - Repozitář: [https://github.com/soCzech/TransNetV2](https://github.com/soCzech/TransNetV2)
 - Cesta pro váhy: `TransNetV2/inference/transnetv2-weights`
 
-#### 🔹 3. YOLO model pro detekci log
-
-- Repozitář: [https://github.com/ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)
-- Model: `yolov11s.pt`
-- Cesta: `yolo/yolov11s.pt`
-
----
