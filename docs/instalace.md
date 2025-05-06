@@ -10,7 +10,7 @@ Projekt lze spustit dvěma způsoby: pomocí Dockeru (doporučeno) nebo lokáln�
 
    ```bash[
    git clone https://github.com/tomyjany/BroadcastInsight.git
-   cd NewsVideoMiner-docs
+   cd BroadcastInsight
    ```
 
 2. **Spusťte službu:**
