@@ -35,7 +35,7 @@ AUTOSHOT_MODEL_PATH : "Autoshot/ckpt_0_200_0.pth"
 
 
 #People Detection
-YOLO_MODEL_PATH : "yolo/yolov5s.pt"
+YOLO_MODEL_PATH : "yolo/yolov11s-stations.pt"
 
 # Database people path
 PEOPLE_DB_PATH : "PeopleFinder/People/database"
